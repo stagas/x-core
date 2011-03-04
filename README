@@ -6,8 +6,25 @@ Installation:
 Example:
   var crypto = require('x-core')('crypto')
   
-These are the extension methods, so far:
+These are the modules patched, so far:
+
+  http
+  crypto
+  util
+
+http:
+
+  in http.createServer(), req emits 'body' for the full body response
+  in http.request and http.get, res emits 'body' for the full body response and 'line' for each line
+
+crypto:
 
   crypto.hash(string, [algo='md5'], [encoding='hex'])
+
+util:
+
   util.sprintf()
   util.printf()
+
+
+Also
