@@ -25,6 +25,3 @@ util:
 
   util.sprintf()
   util.printf()
-
-
-Also
