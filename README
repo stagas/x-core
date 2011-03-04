@@ -1,0 +1,13 @@
+This is a repository of core node modules extensions.
+
+Installation:
+  npm install x-core
+
+Example:
+  var crypto = require('x-core')('crypto')
+  
+These are the extension methods, so far:
+
+  crypto.hash(string, [algo='md5'], [encoding='hex'])
+  util.sprintf()
+  util.printf()

@@ -1,0 +1,17 @@
+{
+  "name": "x-core",
+  "description": "node.js core extensions",
+  "version": "0.0.1",
+  "author": "George Stagas <gstagas@gmail.com>",
+  "engines": {
+    "node": ">=0.4.0"
+  },
+  "main": "./x-core",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/stagas/x-core"
+  },
+  "bugs": {
+    "web": "https://github.com/stagas/x-core/issues"
+  }
+}
